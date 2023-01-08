@@ -1,7 +1,9 @@
 # e-project
-this is an eCommerce project mainly for skincare products, which comprises of the frontend, backend and the admin dashboard for managing the shop.
+
+An e-commerce project mainly for skincare products. This repo contains the entire project, frontend using react.js, Node backend and the admin-panel (react.js) for managing the shop.
 <br>
-# Web 
+
+# Web screens
 ![Screenshot (197)](https://user-images.githubusercontent.com/100992913/211195892-3b8937a8-42aa-474a-ab85-70e8df6ab3f5.png)
 <br>
 
@@ -9,7 +11,7 @@ this is an eCommerce project mainly for skincare products, which comprises of th
 <br>
 
 
-# mobile
+# mobile Screens
  <table>
   <tr>
     <td><img src="https://user-images.githubusercontent.com/100992913/211195363-f7ee2d32-4895-4c16-9abb-78a28f48b7f2.png"></td>
