@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import usePostRequest from '../hooks/usePostData';
+import usePostRequest from '../../hooks/usePostData';
 import axios from 'axios';
 
 
