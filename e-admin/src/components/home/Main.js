@@ -7,9 +7,13 @@ import TopTotal from "./TopTotal";
 
 const Main = () => {
   return (
-    <div className="md:flex ml-42">
-      <Side />
-      <Account/>
+    <div className="grid grid-cols-1 lg:grid-cols-2">
+      <div className="bg-gray-200 lg:col-1">
+        <Side />
+      </div>
+      <div className="col-1">
+        <Account />
+      </div>
     </div>
   );
 };
