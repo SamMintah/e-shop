@@ -9,7 +9,7 @@ function Header({
   setSidebarOpen
 }) {
 
-  const [searchModalOpen, setSearchModalOpen] = useState(false)
+  const [searchModalOpen, setSearchModalOpen] = useState(true)
 
   return (
     <header className="sticky top-0 bg-white border-b border-slate-200 z-30">

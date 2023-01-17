@@ -19,3 +19,18 @@ An e-commerce project mainly for skincare products. This repo contains the entir
   </tr>
  </table>
 
+
+
+# Admin Web screens
+
+![mobile (2)](https://user-images.githubusercontent.com/100992913/212800292-ec32d2a2-2120-46ac-9064-90094bee9e5a.png)
+
+# mobile Screens
+ <table>
+  <tr>
+    <td><img src="https://user-images.githubusercontent.com/100992913/212800370-530124c1-cfc9-4341-979a-69e986956c3b.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/100992913/212800404-bebcae24-2ab6-4455-8551-52b687e3b4a6.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/100992913/212801162-38ea6f53-0f11-4abc-801b-213508004197.png"></td>
+  </tr>
+ </table>
+
