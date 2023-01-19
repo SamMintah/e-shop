@@ -4,7 +4,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 import { BsTwitter } from "react-icons/bs";
 import { TbBrandTiktok } from "react-icons/tb";
 import { FaWhatsapp } from "react-icons/fa";
-import logo from "../assets/logo.png"
+import logo from "../assets/icon-user.svg"
 import pay from "../assets/pay.png"
 
 function Footer() {
@@ -96,7 +96,7 @@ function Footer() {
         <div className="mb-6 md:mb-0">
             <a href="https://flowbite.com/" className="flex items-center">
                 <img src={logo} className="mr-3 h-8" alt="Logo" />
-                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">PURE PERFECTION</span>
+                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">E-shop</span>
             </a>
         </div>
         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -104,7 +104,7 @@ function Footer() {
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                 <ul className="text-gray-600 dark:text-gray-400">
                     <li className="mb-4">
-                        <a href="https://flowbite.com/" className="hover:underline">PURE PERFECTION</a>
+                        <a href="https://flowbite.com/" className="hover:underline">E_shop</a>
                     </li>
                     <li>
                         <a href="https://tailwindcss.com/" className="hover:underline">Skincare</a>
@@ -132,7 +132,7 @@ function Footer() {
       </div>
     <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
     <div className="sm:flex sm:items-center sm:justify-between">
-        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com/" className="hover:underline">PPB™</a>. All Rights Reserved.
+        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://flowbite.com/" className="hover:underline">E-SHOP™</a>. All Rights Reserved.
         </span>
         <div className="flex mt-4 space-x-6 sm:items-center sm:mt-0">
             <a href="#" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">

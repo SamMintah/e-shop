@@ -1,27 +1,40 @@
-import Sidebar from "../../components/SideBar";
-import  Add from "../../components/Add"
-
 
 import React, { useState } from 'react';
+import {Link} from "react-router-dom"
+import Sidebar from '../../partials/Sidebar';
+import Header from '../../partials/Header';
+import Add from '../../components/products/Add';
 
 const AddProduct= () => {
   const [name, setName] = useState('');
   const [price, setPrice] = useState(0);
   const [products, setProducts] = useState([]);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setProducts([...products, { name, price }]);
-    setName('');
-    setPrice(0);
-  };
+ 
   return (
-    <div className="content-center">
-            <Sidebar/>
-            <div className="mt-10 text-black">
-              Add Product
-            </div>
-            <Add/>
+    <div className="flex h-screen overflow-hidden">
+
+      <Sidebar sidebarOpen={ sidebarOpen } setSidebarOpen={ setSidebarOpen } />
+
+      <div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
+        <Header sidebarOpen={ sidebarOpen } setSidebarOpen={ setSidebarOpen } />
+        <div className="flex items-center justify-between h-16 -mb">
+          <h1 className='text-2xl m-5 md:text-3xl m-10 text-slate-800 font-bold'>Add Product</h1>
+          <Link to={'/products'}>
+          <button className="inline-flex justify-center mr-5 rounded-md border border-transparent bg-[black] py-2 px-2 text-sm font-medium text-white shadow-sm hover:bg-[black] focus:outline-none focus:ring-2  focus:ring-offset-2">
+          View Products
+          </button>
+          </Link>
+        </div>
+        <div className='content-center m-5 lg:ml-20'>
+        <Add/>       
+        </div>
+      </div>
+
+      <div>
+     </div>
+     
     {/* <form
       onSubmit={handleSubmit}
       className="w-full max-w-sm mx-auto my-8 p-8 bg-white rounded-lg shadow-xl"

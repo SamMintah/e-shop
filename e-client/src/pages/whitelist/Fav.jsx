@@ -1,4 +1,6 @@
-import React, {  useState } from "react";
+import React, { useState } from "react";
+import {Link} from "react-router-dom"
+
 import ban2 from "../../components/assets/ban2.jpg"
 
 const Fav = () => {
@@ -33,7 +35,7 @@ const Fav = () => {
                         </div>
                         <div className="mt-6 flex justify-between items-center">
                             <div className="flex justify-center items-center">
-                                <p className="tracking-tight text-2xl font-semibold leading-6 text-gray-800">Luxe 3 series</p>
+                                <p className="tracking-tight text-2xl font-semibold leading-6 text-gray-800">Product Name</p>
                             </div>
                             <div className="flex justify-center items-center">
                                 <button aria-label="show menu" onClick={() => setshow1(!show1)} className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 py-2.5 px-2 bg-gray-800 text-white hover:text-gray-400">
@@ -47,21 +49,15 @@ const Fav = () => {
                             </div>
                         </div>
                         <div id="menu2" className={`flex-col jusitfy-start items-start mt-12 ${show1 ? "flex" : "hidden"}`}>
-                            <div>
-                                <p className="tracking-tight text-xs leading-3 text-gray-800">MK617</p>
-                            </div>
-                            <div className="mt-2">
-                                <p className="tracking-tight text-base font-medium leading-4 text-gray-800">Beige brown</p>
-                            </div>
-                            <div className="mt-6">
-                                <p className="tracking-tight text-base font-medium leading-4 text-gray-800">42 size</p>
-                            </div>
+                            
                             <div className="mt-6">
                                 <p className="tracking-tight text-base font-medium leading-4 text-gray-800">$1,000</p>
                             </div>
                             <div className="flex jusitfy-between flex-col lg:flex-row items-center mt-10 w-full space-y-4 lg:space-y-0 lg:space-x-4 xl:space-x-8">
                                 <div className="w-full">
-                                    <button className=" focus:outline-none focus:ring-gray-800 focus:ring-offset-2 focus:ring-2 text-gray-800 w-full tracking-tight py-4 text-lg leading-4 hover:bg-gray-300 hover:text-gray-800  bg-white border border-gray-800">More information</button>
+                                    <Link to={"/productdetails"} >
+                                    <button className=" focus:outline-none focus:ring-gray-800 focus:ring-offset-2 focus:ring-2 text-gray-800 w-full tracking-tight py-4 text-lg leading-4 hover:bg-gray-300 hover:text-gray-800  bg-white border border-gray-800">Details</button>
+                                    </Link>
                                 </div>
                                 <div className="w-full">
                                     <button className="focus:outline-none focus:ring-gray-800 focus:ring-offset-2 focus:ring-2  text-white w-full tracking-tight py-4 text-lg leading-4  hover:bg-black bg-gray-800 border border-gray-800">Add to cart</button>
@@ -83,7 +79,7 @@ const Fav = () => {
                         </div>
                         <div className="mt-6 flex justify-between items-center">
                             <div className="flex justify-center items-center">
-                                <p className="tracking-tight text-2xl font-semibold leading-6 text-gray-800">Luxe 3 series</p>
+                                <p className="tracking-tight text-2xl font-semibold leading-6 text-gray-800">Product Name</p>
                             </div>
                             <div className="flex justify-center items-center">
                                 <button aria-label="show menu" onClick={() => setshow2(!show2)} className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 py-2.5 px-2 bg-gray-800 text-white hover:text-gray-400">
@@ -97,21 +93,15 @@ const Fav = () => {
                             </div>
                         </div>
                         <div id="menu2" className={`flex-col jusitfy-start items-start mt-12 ${show2 ? "flex" : "hidden"}`}>
-                            <div>
-                                <p className="tracking-tight text-xs leading-3 text-gray-800">MK617</p>
-                            </div>
-                            <div className="mt-2">
-                                <p className="tracking-tight text-base font-medium leading-4 text-gray-800">Beige brown</p>
-                            </div>
-                            <div className="mt-6">
-                                <p className="tracking-tight text-base font-medium leading-4 text-gray-800">42 size</p>
-                            </div>
+                           
                             <div className="mt-6">
                                 <p className="tracking-tight text-base font-medium leading-4 text-gray-800">$1,000</p>
                             </div>
                             <div className="flex jusitfy-between flex-col lg:flex-row items-center mt-10 w-full space-y-4 lg:space-y-0 lg:space-x-4 xl:space-x-8">
                                 <div className="w-full">
-                                    <button className=" focus:outline-none focus:ring-gray-800 focus:ring-offset-2 focus:ring-2 text-gray-800 w-full tracking-tight py-4 text-lg leading-4 hover:bg-gray-300 hover:text-gray-800  bg-white border border-gray-800">More information</button>
+                                <Link to={"/productdetails"} >
+                                    <button className=" focus:outline-none focus:ring-gray-800 focus:ring-offset-2 focus:ring-2 text-gray-800 w-full tracking-tight py-4 text-lg leading-4 hover:bg-gray-300 hover:text-gray-800  bg-white border border-gray-800">Details</button>
+                                </Link>
                                 </div>
                                 <div className="w-full">
                                     <button className="focus:outline-none focus:ring-gray-800 focus:ring-offset-2 focus:ring-2  text-white w-full tracking-tight py-4 text-lg leading-4  hover:bg-black bg-gray-800 border border-gray-800">Add to cart</button>
@@ -133,7 +123,7 @@ const Fav = () => {
                         </div>
                         <div className="mt-6 flex justify-between items-center">
                             <div className="flex justify-center items-center">
-                                <p className="tracking-tight text-2xl font-semibold leading-6 text-gray-800">EZ sneakers</p>
+                                <p className="tracking-tight text-2xl font-semibold leading-6 text-gray-800">Product Name</p>
                             </div>
                             <div className="flex justify-center items-center">
                                 <button aria-label="show menu" onClick={() => setshow3(!show3)} className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 py-2.5 px-2 bg-gray-800 text-white hover:text-gray-400">
@@ -147,21 +137,15 @@ const Fav = () => {
                             </div>
                         </div>
                         <div id="menu3" className={`flex-col jusitfy-start items-start mt-12 ${show3 ? "flex" : "hidden"}`}>
-                            <div>
-                                <p className="tracking-tight text-xs leading-3 text-gray-800">MK617</p>
-                            </div>
-                            <div className="mt-2">
-                                <p className="tracking-tight text-base font-medium leading-4 text-gray-800">Beige brown</p>
-                            </div>
-                            <div className="mt-6">
-                                <p className="tracking-tight text-base font-medium leading-4 text-gray-800">42 size</p>
-                            </div>
+                           
                             <div className="mt-6">
                                 <p className="tracking-tight text-base font-medium leading-4 text-gray-800">$1,000</p>
                             </div>
                             <div className="flex jusitfy-between flex-col lg:flex-row items-center mt-10 w-full space-y-4 lg:space-y-0 lg:space-x-4 xl:space-x-8">
                                 <div className="w-full">
-                                    <button className=" focus:outline-none focus:ring-gray-800 focus:ring-offset-2 focus:ring-2 text-gray-800 w-full tracking-tight py-4 text-lg leading-4 hover:bg-gray-300 hover:text-gray-800  bg-white border border-gray-800">More information</button>
+                                <Link to={"/productdetails"} >
+                                    <button className=" focus:outline-none focus:ring-gray-800 focus:ring-offset-2 focus:ring-2 text-gray-800 w-full tracking-tight py-4 text-lg leading-4 hover:bg-gray-300 hover:text-gray-800  bg-white border border-gray-800">Details</button>
+                                </Link>
                                 </div>
                                 <div className="w-full">
                                     <button className="focus:outline-none focus:ring-gray-800 focus:ring-offset-2 focus:ring-2  text-white w-full tracking-tight py-4 text-lg leading-4  hover:bg-black bg-gray-800 border border-gray-800">Add to cart</button>

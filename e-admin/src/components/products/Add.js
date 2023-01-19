@@ -36,7 +36,7 @@ const Add = () => {
   
   return (
     <>
-      <div className=' ml-12 md:ml-96 content-center'>
+      <div className='ml-5  content-center'>
         <div className="md:grid md:grid-cols-3 md:gap-6">
           <div className="mt-5 md:col-span-2 md:mt-0">
             <form onSubmit={handleSubmit}>
@@ -50,7 +50,7 @@ const Add = () => {
                       <div className="mt-1 flex rounded-md shadow-sm">
                         <input
                           type="text"
-                          name="name"
+                          name={name}
                           className="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                           placeholder="Type here"
                           onChange={handleChange}
@@ -64,7 +64,7 @@ const Add = () => {
                       <div className="mt-1 flex rounded-md shadow-sm">
                         <input
                           type="text"
-                          name="price"
+                          name={price}
                           onChange={handleChange}
                           className="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                           placeholder="Type here"
@@ -78,7 +78,7 @@ const Add = () => {
                       <div className="mt-1 flex rounded-md shadow-sm">
                         <input
                           type="text"
-                          name="ingredients"
+                          name={Ingredients}
                           onChange={handleChange}
                           className="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                           placeholder="Type here"
@@ -106,7 +106,7 @@ const Add = () => {
                       <div className="mt-1 flex rounded-md shadow-sm">
                         <input
                           type="text"
-                          name="category"
+                          name={category}
                           onChange={handleChange}
                           className="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                           placeholder="Type here"
@@ -121,7 +121,7 @@ const Add = () => {
                     <div className="mt-1">
                       <textarea
                           onChange={handleChange}
-                          name="description"
+                          name={description}
                         rows={3}
                         className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                         placeholder="type here"
@@ -167,7 +167,7 @@ const Add = () => {
                 <div className="bg-gray-50 px-4 py-3 text-right sm:px-6">
                   <button
                     type="submit"
-                    className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                    className="inline-flex justify-center rounded-md border border-transparent bg-[black] py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-[black] focus:outline-none focus:ring-2  focus:ring-offset-2"
                   >
                     Add
                   </button>

@@ -5,6 +5,7 @@ import ban2 from "../assets/ban2.jpg"
 import blog2 from "../assets/blog2.jpg"
 
 const ProductCard = () => {
+  
   return (
     <div>
       <Link to={"/productdetails"} className="relative block overflow-hidden group  lg:m-3">
