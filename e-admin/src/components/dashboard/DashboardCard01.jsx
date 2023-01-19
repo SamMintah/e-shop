@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import LineChart from '../../charts/LineChart01';
-import Icon from '../../images/icon-02.svg';
-import EditMenu from '../EditMenu';
+import Icon from '../../images/icon-01.svg';
+import EditMenu from '../partials/EditMenu';
 
 // Import utilities
 import { tailwindConfig, hexToRGB } from '../../utils/Utils';
 
-function DashboardCard02() {
+function DashboardCard01() {
 
   const chartData = {
     labels: [
@@ -25,10 +25,10 @@ function DashboardCard02() {
       // Indigo line
       {
         data: [
-          622, 622, 426, 471, 365, 365, 238,
-          324, 288, 206, 324, 324, 500, 409,
-          409, 273, 232, 273, 500, 570, 767,
-          808, 685, 767, 685, 685,
+          732, 610, 610, 504, 504, 504, 349,
+          349, 504, 342, 504, 610, 391, 192,
+          154, 273, 191, 191, 126, 263, 349,
+          252, 423, 622, 470, 532,
         ],
         fill: true,
         backgroundColor: `rgba(${hexToRGB(tailwindConfig().theme.colors.blue[500])}, 0.08)`,
@@ -43,10 +43,10 @@ function DashboardCard02() {
       // Gray line
       {
         data: [
-          732, 610, 610, 504, 504, 504, 349,
-          349, 504, 342, 504, 610, 391, 192,
-          154, 273, 191, 191, 126, 263, 349,
-          252, 423, 622, 470, 532,
+          532, 532, 532, 404, 404, 314, 314,
+          314, 314, 314, 234, 314, 234, 234,
+          314, 314, 314, 388, 314, 202, 202,
+          202, 202, 314, 720, 642,
         ],
         borderColor: tailwindConfig().theme.colors.slate[300],
         borderWidth: 2,
@@ -64,7 +64,7 @@ function DashboardCard02() {
       <div className="px-5 pt-5">
         <header className="flex justify-between items-start mb-2">
           {/* Icon */}
-          <img src={Icon} width="32" height="32" alt="Icon 02" />
+          <img src={Icon} width="32" height="32" alt="Icon 01" />
           {/* Menu button */}
           <EditMenu className="relative inline-flex">
             <li>
@@ -78,10 +78,10 @@ function DashboardCard02() {
             </li>
           </EditMenu>
         </header>
-        <h2 className="text-lg font-semibold text-slate-800 mb-2">Total Orders</h2>
+        <h2 className="text-lg font-semibold text-slate-800 mb-2">Total Sales</h2>
         <div className="flex items-start">
-          <div className="text-3xl font-bold text-slate-800 mr-2">489</div>
-          <div className="text-sm font-semibold text-white px-1.5 bg-yellow-500 rounded-full">-14%</div>
+          <div className="text-3xl font-bold text-slate-800 mr-2">$24,780</div>
+          <div className="text-sm font-semibold text-white px-1.5 bg-green-500 rounded-full">+49%</div>
         </div>
       </div>
       {/* Chart built with Chart.js 3 */}
@@ -93,4 +93,4 @@ function DashboardCard02() {
   );
 }
 
-export default DashboardCard02;
+export default DashboardCard01;

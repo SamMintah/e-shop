@@ -10,9 +10,10 @@ import './css/style.css';
 import './charts/ChartjsConfig';
 
 // Import pages
-import Dashboard from './pages/Dashboard';
 import AddProduct from './pages/product/AddProduct';
 import ProductList from './pages/product/ProductList';
+import Dashboard from './pages/dashboard/Dashboard';
+import ProductDetails from './pages/product/ProductDetails';
 
 function App() {
 
@@ -27,9 +28,10 @@ function App() {
   return (
     <>
       <Routes>
-        <Route exact path="/" element={ <Dashboard /> } />
+        <Route exact path="/" element={ <Dashboard/> } />
         <Route exact path='/addproduct' element={ <AddProduct /> } />
-        <Route exact path='/products' element={<ProductList/>} />
+        <Route exact path='/products' element={ <ProductList /> } />
+        <Route exact path='/productdetails' element={<ProductDetails/>} />
       </Routes>
     </>
   );

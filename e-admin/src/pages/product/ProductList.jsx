@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Sidebar from "../../partials/Sidebar";
-import Header from "../../partials/Header";
+import Sidebar from "../../components/partials/Sidebar";
+import Header from "../../components/partials/Header";
 // import Product from './Product';
 // import useAxios from '../hooks/useAxios';
 // import Spinner from '../components/Spinner';

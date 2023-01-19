@@ -24,7 +24,7 @@ app.get("/" ,(req,res) =>{
     .send("welcome to my server .please posts / to get all products")
 })
 
-
+//routes
 app.use('/user',customerRouter);
 app.use('/order',orderRouter);
 app.use('/product',productRouter);
