@@ -4,33 +4,37 @@ An e-commerce project mainly for skincare products. This repo contains the entir
 <br>
 
 # Web screens
-![Screenshot (197)](https://user-images.githubusercontent.com/100992913/211195892-3b8937a8-42aa-474a-ab85-70e8df6ab3f5.png)
-<br>
 
-![Screenshot (194)](https://user-images.githubusercontent.com/100992913/211195686-1d055e8b-5d1e-467e-aa4f-416f7ad17c4f.png)
+![mobile (10)](https://user-images.githubusercontent.com/100992913/213595877-f5ac8408-f0e0-4384-9cfe-8b9f44c03789.png)
+
 <br>
 
 
 # mobile Screens
+
  <table>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/100992913/211195363-f7ee2d32-4895-4c16-9abb-78a28f48b7f2.png"></td>
-    <td><img src="https://user-images.githubusercontent.com/100992913/211195819-879d8f14-f07f-47af-89cf-923eb652ee68.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/100992913/213594982-1cedb79f-c192-4f53-b72e-5a5cb7635fe5.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/100992913/213595119-be83f643-99fa-4cee-8e1b-d5c00da3292c.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/100992913/213595916-e3771cf4-2b7c-458e-95eb-a937fe92acda.png"></td>
   </tr>
  </table>
 
 
 
-# Admin Web screens
+# Admin Web screen
+![mobile (7)](https://user-images.githubusercontent.com/100992913/213594293-b3201fb1-7fbf-4c41-8544-d6c7781fab8c.png)
 
-![mobile (2)](https://user-images.githubusercontent.com/100992913/212800292-ec32d2a2-2120-46ac-9064-90094bee9e5a.png)
+# mobile Screens 
 
-# mobile Screens
  <table>
   <tr>
-    <td><img src="https://user-images.githubusercontent.com/100992913/212800370-530124c1-cfc9-4341-979a-69e986956c3b.png"></td>
-    <td><img src="https://user-images.githubusercontent.com/100992913/212800404-bebcae24-2ab6-4455-8551-52b687e3b4a6.png"></td>
-    <td><img src="https://user-images.githubusercontent.com/100992913/212801162-38ea6f53-0f11-4abc-801b-213508004197.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/100992913/213596570-449c560e-5802-4e0a-9b54-a7aa3d576bbd.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/100992913/213593448-c26b3045-fc46-49d5-84fa-ab2cb30ea1ce.png"></td>
+    <td><img src="https://user-images.githubusercontent.com/100992913/213592986-c4688033-8c3f-4a7e-a5ec-2aa90c59f8b2.png"></td>
   </tr>
  </table>
+
+
+
 
