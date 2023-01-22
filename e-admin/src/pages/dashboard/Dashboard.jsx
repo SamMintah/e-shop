@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import Sidebar from "../../components/partials/Sidebar";
+import Sidebar from "../../components/partials/Side";
 import Header from "../../components/partials/Header";
 import WelcomeBanner from "../../components/dashboard/WelcomeBanner";
 import FilterButton from "../../components/actions/FilterButton";
@@ -17,21 +17,21 @@ import DashboardCard10 from "../../components/dashboard/DashboardCard10";
 import DashboardCard11 from "../../components/dashboard/DashboardCard11";
 
 function Dashboard() {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(true);
 
-  const handelClick = (e) => {
-    setSidebarOpen(true);
+  const handelClick = () => {
+    setSidebarOpen(!sidebarOpen);
   };
 
   return (
     <div className="flex h-screen overflow-hidden">
       {/* Sidebar */}
-      <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={handelClick} />
+      {/* <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={handelClick} /> */}
 
       {/* Content area */}
       <div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
         {/*  Site header */}
-        <Header sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
+        {/* <Header/> */}
 
         <main>
           <div className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-9xl mx-auto">
