@@ -4,7 +4,7 @@ import prod2 from "../assets/prod2.jpg";
 import prod3 from "../assets/prod3.jpg";
 import prod4 from "../assets/prod4.jpg";
 import prod5 from "../assets/prod5.jpg";
-import ban5 from "../assets/ban5.png";
+import homeban from "../assets/homeban.png"
 import { Link } from "react-router-dom";
 
 
@@ -17,12 +17,12 @@ function Carousels() {
             <div className="lg:flex justify-center gap-8 items-stretch">
               <div>
                 <img
-                  src={ban5}
+                  src={homeban}
                   alt="headfons"
                   className="w-[750px] object-fill h-full m-0 lg:block md:hidden block"
                 />
                 <img
-                  src={ban5}
+                  src={homeban}
                   alt="headfons_bg"
                   className="lg:hidden md:block hidden"
                 />

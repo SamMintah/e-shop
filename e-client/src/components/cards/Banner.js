@@ -1,10 +1,10 @@
 import React from 'react'
-import banner from "../assets/banner.png"
+import thirdadd from "../assets/thirdadd.png"
 
 const BannerAd = () => {
   return (
     <div>
-      <img src={banner} alt="banner"/>
+      <img src={thirdadd} alt="banner"/>
     </div>
   )
 }

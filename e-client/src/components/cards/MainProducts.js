@@ -2,16 +2,16 @@ import React from 'react'
 import Products from "./Products"
 import ProHead from "../header/ProHead"
 import Socials from "./Socials"
-import Highlight1 from "./Highlight"
-import mainPro from "../assets/mainProHead.png"
+import MainBanner2 from "./MainBanner2"
+import MainBanner from './MainBanner'
 
 const MainProducts = () => {
   return (
     <div>
-     <img src={mainPro}/>
+    <MainBanner/>
       <ProHead/>
       <Products/>
-       <Highlight1/>
+       <MainBanner2/>
        <Products/>
       <Socials/>
     </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import ProductsPage from "../products/Products";
-import BannerAd from "../../components/cards/Banner";
-import AdTwo from "../../components/cards/AdTwo";
+import HomeBanner from "../../components/cards/HomeBanner";
+import HomeBanner2 from "../../components/cards/HomeBanner2";
 import FootBanner from "../../components/cards/FootBanner";
 import Carousels from "../../components/cards/Carousels";
 import PageHeading1 from "../../components/header/ProHead";
@@ -16,12 +16,12 @@ const Home = () => {
         <PageHeading1 />
         < ProductsPage />
       </div>
-      <BannerAd />
+      <HomeBanner />
       <div className="mt-2 items-center">
         <h1 className="text-[black] text-xl font-bold m-5">NEW ARIVAL</h1>
         <ProductsPage />
       </div>
-      <AdTwo />
+      <HomeBanner2 />
       <div className="mt-2 items-center">
         <h1 className="text-[black] text-xl font-bold m-5">
           SHOP BEST SELLERS 
