@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import {Link} from "react-router-dom"
 
-import ban2 from "../../components/assets/ban2.jpg"
 
 const Fav = () => {
     const [show1, setshow1] = useState(true);
@@ -23,9 +22,9 @@ const Fav = () => {
                 <div className=" mt-10 lg:mt-12 grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-10 lg:gap-y-10">  
                     <div className="flex flex-col m-5">
                         <div className="relative">
-                            <img className="hidden lg:block h-64 w-full" src={ban2} alt="watch" />
-                            <img className="hidden sm:block lg:hidden" src={ban2} alt="watch" />
-                            <img className="sm:hidden" src={ban2} alt="watch" />
+                            <img className="hidden lg:block h-64 w-full" src="./img/ban2.jpg" alt="watch" />
+                            <img className="hidden sm:block lg:hidden" src="./img/ban2.jpg" alt="watch" />
+                            <img className="sm:hidden" src="./img/ban2.jpg" alt="watch" />
                             <button aria-label="close" className="top-4 right-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 absolute  p-1.5 bg-gray-800 text-white hover:text-gray-400">
                                 <svg className="fil-current" width={14} height={14} viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M13 1L1 13" stroke="currentColor" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
@@ -67,9 +66,9 @@ const Fav = () => {
                     </div>
                     <div className="flex flex-col  m-5">
                         <div className="relative">
-                            <img className="hidden lg:block h-64 w-full" src={ban2} alt="watch" />
-                            <img className="hidden sm:block lg:hidden" src={ban2} alt="watch" />
-                            <img className="sm:hidden" src={ban2} alt="watch" />
+                            <img className="hidden lg:block h-64 w-full" src="./img/oil.jpg" alt="watch" />
+                            <img className="hidden sm:block lg:hidden" src="./img/oil.jpg" alt="watch" />
+                            <img className="sm:hidden" src="./img/oil.jpg" alt="watch" />
                             <button aria-label="close" className="top-4 right-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 absolute  p-1.5 bg-gray-800 text-white hover:text-gray-400">
                                 <svg className="fil-current" width={14} height={14} viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M13 1L1 13" stroke="currentColor" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />
@@ -111,9 +110,9 @@ const Fav = () => {
                     </div>
                     <div className="flex flex-col  m-5">
                         <div className="relative">
-                            <img className="hidden lg:block h-64 w-full" src={ban2} alt="shoes" />
-                            <img className="hidden sm:block lg:hidden" src={ban2} alt="shoes" />
-                            <img className="sm:hidden " src={ban2} alt="shoes" />
+                            <img className="hidden lg:block h-64 w-full" src="./img/prod2.jpg" alt="shoes" />
+                            <img className="hidden sm:block lg:hidden" src="./img/prod2.jpg" alt="shoes" />
+                            <img className="sm:hidden " src="./img/prod2.jpg" alt="shoes" />
                             <button aria-label="close" className="top-4 right-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 absolute  p-1.5 bg-gray-800 text-white hover:text-gray-400">
                                 <svg className="fil-current" width={14} height={14} viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M13 1L1 13" stroke="currentColor" strokeWidth="1.25" strokeLinecap="round" strokeLinejoin="round" />

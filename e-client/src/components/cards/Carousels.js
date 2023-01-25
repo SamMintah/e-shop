@@ -1,10 +1,4 @@
 import React from "react";
-import prod1 from "../assets/prod1.jpg";
-import prod2 from "../assets/prod2.jpg";
-import prod3 from "../assets/prod3.jpg";
-import prod4 from "../assets/prod4.jpg";
-import prod5 from "../assets/prod5.jpg";
-import homeban from "../assets/homeban.png"
 import { Link } from "react-router-dom";
 
 
@@ -17,12 +11,12 @@ function Carousels() {
             <div className="lg:flex justify-center gap-8 items-stretch">
               <div>
                 <img
-                  src={homeban}
+                  src="./img/homeban.png"
                   alt="headfons"
                   className="w-[750px] object-fill h-full m-0 lg:block md:hidden block"
                 />
                 <img
-                  src={homeban}
+                  src="./img/homeban.png"
                   alt="headfons_bg"
                   className="lg:hidden md:block hidden"
                 />
@@ -33,52 +27,52 @@ function Carousels() {
                 </p>
                 <div className="flex md:gap-5 gap-5 mt-10">
                   <img
-                    src={prod1}
+                    src="./img/prod1.jpg"
                     alt="earbuds"
                     className="md:block hidden w-20 h-20"
                   />
                   <img
-                    src={prod1}
+                    src="./img/prod1.jpg"
                     alt="earbuds_sm"
                     className="lg:hidden md:hidden block w-12 h-12"
                   />
                   <img
-                    src={prod2}
+                    src="./img/prod2.jpg"
                     alt="earbuds"
                     className="md:block hidden w-20 h-20"
                   />
                   <img
-                    src={prod2}
-                    alt="earbuds_sm"
-                    className="lg:hidden md:hidden block w-12 h-12"
-                  />
-                    <img
-                    src={prod3}
-                    alt="earbuds"
-                    className="md:block hidden w-20 h-20"
-                  />
-                  <img
-                    src={prod3}
+                    src="./img/prod2.jpg"
                     alt="earbuds_sm"
                     className="lg:hidden md:hidden block w-12 h-12"
                   />
                     <img
-                    src={prod4}
+                    src="./img/prod3.jpg"
                     alt="earbuds"
                     className="md:block hidden w-20 h-20"
                   />
                   <img
-                    src={prod4}
+                    src="./img/prod3.jpg"
+                    alt="earbuds_sm"
+                    className="lg:hidden md:hidden block w-12 h-12"
+                  />
+                    <img
+                    src="./img/prod4.jpg"
+                    alt="earbuds"
+                    className="md:block hidden w-20 h-20"
+                  />
+                  <img
+                    src="./img/prod4.jpg"
                     alt="earbuds_sm"
                     className="lg:hidden md:hidden block w-12 h-12"
                   />
                    <img
-                    src={prod5}
+                    src="./img/prod5.jpg"
                     alt="earbuds"
                     className="md:block hidden w-20 h-20"
                   />
                    <img
-                    src={prod5}
+                    src="./img/prod5.jpg"
                     alt="earbuds_sm"
                     className="lg:hidden md:hidden block w-12 h-12"
                   />

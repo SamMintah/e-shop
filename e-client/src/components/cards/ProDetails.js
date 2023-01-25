@@ -1,22 +1,10 @@
 import React, { useState } from "react";
-import ban2  from "../assets/ban2.jpg"
 import ProductReview1 from "./Reviews";
 
-
-const Product3 = () => {
+const Product3 = ({name,img,ingredients,description}) => {
   const [show, setShow] = useState(false);
   const [show2, setShow2] = useState(false);
-  const [count, setCount] = useState(0);
-
-  const addCount = () => {
-    setCount((prev) => prev + 1);
-  };
-
-  const minusCount = () => {
-    if (count > 0) {
-      setCount((prev) => prev - 1);
-    }
-  };
+  
 
   return (
     <>
@@ -25,7 +13,7 @@ const Product3 = () => {
         <img
           className="w-full "
           alt="img"
-          src={ban2}
+          src={img}
         />
       </div>
       <div className="xl:w-2/5 md:w-1/2 lg:ml-8 md:ml-6 md:mt-0 mt-6">
@@ -34,52 +22,23 @@ const Product3 = () => {
             Product Tittle
           </p>
           <h1 className="lg:text-2xl text-xl font-semibold lg:leading-6 leading-7 text-gray-800 mt-2">
-            Product Name
+          {name}
           </h1>
         </div>
         <div className="py-4 border-b border-gray-200 flex items-center justify-between">
           <div className="flex items-center justify-center">
             <p className="text-sm leading-none text-gray-600">
-            or 4 interest-free payments of $8.50 with
+               ingredients : {ingredients}
             </p>
           </div>
         </div>
-        <div className="flex flex-row justify-between m-2">
-              <p className=" font-medium text-base leading-4 text-gray-600">
-                Select quantity
-              </p>
-              <div className="flex">
-                <span
-                  onClick={minusCount}
-                  className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer border border-gray-300 border-r-0 w-7 h-7 flex items-center justify-center pb-1"
-                >
-                  -
-                </span>
-                <input
-                  id="counter"
-                  aria-label="input"
-                  className="border border-gray-300 h-full text-center w-14 pb-1"
-                  type="text"
-                  value={count}
-                  onChange={(e) => e.target.value}
-                />
-                <span
-                  onClick={addCount}
-                  className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 cursor-pointer border border-gray-300 border-l-0 w-7 h-7 flex items-center justify-center pb-1 "
-                >
-                  +
-                </span>
-              </div>
-         </div>
+       
         <button className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-8 text-base flex items-center justify-center leading-none text-white bg-[black] w-full py-4 hover:bg-gray-700">
           Add to Cart
         </button>
         <div>
           <p className=" text-base lg:leading-tight leading-normal text-gray-600 mt-7">
-            It is a long established fact that a reader will be distracted by
-            thereadable content of a page when looking at its layout. The point
-            of usingLorem Ipsum is that it has a more-or-less normal
-            distribution of letters.
+          Description : {description}
           </p>        
         </div>
         <div>

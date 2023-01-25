@@ -1,5 +1,4 @@
 import React from "react";
-import mainbanner from "../assets/mainban.png"
 
 
 const MainBanner2 = () => {
@@ -18,12 +17,12 @@ const MainBanner2 = () => {
                     </div>
                 </div>
                 <div className="hidden md:block bg-[#e8c3d1] h-44 md:h-60 xl:h-72">
-                    <img className="hidden h-full xl:block" src={mainbanner} alt="pexels-dmitry-zvolskiy-2082090-1" />
-                    <img className="xl:hidden h-full" src={mainbanner} alt="pexels-dmitry-zvolskiy-2082090-1-1" />
+                    <img className="hidden h-full xl:block" src="./img/mainban.png" alt="pexels-dmitry-zvolskiy-2082090-1" />
+                    <img className="xl:hidden h-full" src="./img/mainban.png" alt="pexels-dmitry-zvolskiy-2082090-1-1" />
                 </div>
             </div>
             <div className="md:hidden bg-[#e8c3d1] mt-6 w-full">
-                <img src={mainbanner} alt="pexels-dmitry-zvolskiy-2082090-1" className="w-full" />
+                <img src="./img/mainban.png" alt="pexels-dmitry-zvolskiy-2082090-1" className="w-full" />
             </div>
         </div>
     );

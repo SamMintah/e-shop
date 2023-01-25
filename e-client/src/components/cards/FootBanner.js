@@ -1,5 +1,4 @@
 import React from "react";
-import ban4 from "../assets/ban4.jpg";
 
 function FootBanner() {
   return (
@@ -9,17 +8,20 @@ function FootBanner() {
           <div className="lg:max-w-[1440px] relative inset-0 md:max-w-[744px] max-w-[375px] mx-auto bg-white lg:px-20 md:px-6 px-4 lg:py-20 md:py-12 py-9">
             <div className="relative">
               <img
-                  src={ban4}
-                  className="w-full object-cover lg:h-[330px] lg:block md:hidden hidden"
+                  src="./img/ban4.jpg"
+                className="w-full object-cover lg:h-[330px] lg:block md:hidden hidden"
+                alt="footer"
               />
               <div className="w-full h-full bg-black opacity-50 absolute top-0 left-0" />
               <img
-                  src={ban4}
-                  className="lg:hidden md:block hidden"
+                  src="./img/ban4.jpg"
+                className="lg:hidden md:block hidden"
+                alt="footer"
               />
               <img
-                  src={ban4}
-                  className="lg:hidden md:hidden block"
+                  src="./img/ban4.jpg"
+                className="lg:hidden md:hidden block"
+                alt="footer"
               />
               <div className="absolute lg:bottom-8 md:bottom-3 bottom-0 lg:px-7 md:px-10 px-4 py-4">
                 <p className="lg:text-4xl md:text-2xl text-2xl font-semibold leading-9 text-white">

@@ -1,14 +1,12 @@
 import React from 'react'
-import homebann2 from "../assets/homeba.png"
-import bansummer from "../assets/bansummer.png"
 
 const HomeBanner = () => {
     return (
        
           <div className="flex justify-end items-center dark:bg-[#e8c3d1]">
-           <img className="object-cover  md:hidden w-full  h-60" src={ homebann2 } alt="background" />
-          <img className="hidden md:block object-cover md:mr-96  w-[20%] h-56 lg:h-52" src={bansummer} alt="background" />
-            <img className="hidden md:block object-cover md:mr-96  w-[20%] h-56 lg:h-52" src={homebann2} alt="background" />
+           <img className="object-cover  md:hidden w-full  h-60" src="./img/homeba.png" alt="background" />
+          <img className="hidden md:block object-cover md:mr-96  w-[20%] h-56 lg:h-52" src="./img/bansummer.png" alt="background" />
+            <img className="hidden md:block object-cover md:mr-96  w-[20%] h-56 lg:h-52" src="./img/homeba.png" alt="background" />
             <div className=" flex xl:px-20 justify-start items-start flex-col absolute">
             <h1 className="text-[black] text-xl font-bold m-5">BEST DEALS</h1>
               <p className="w-44 sm:w-64 lg:w-2/3 mt-4 text-base leading-6 xl:leading-5 text-gray-800">Shop our mid Season sale for a range of discounted items</p>

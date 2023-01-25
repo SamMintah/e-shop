@@ -1,7 +1,4 @@
 import React from "react";
-import blog1 from "../assets/blog1.jpg"
-import blog4 from "../assets/blog4.jpg"
-import blog5 from "../assets/blog5.jpg"
 
 const Blog2 = () => {
     return (
@@ -12,7 +9,7 @@ const Blog2 = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 lg:gap-x-8 md:gap-6 gap-4 lg:mt-12 md:mt-9 mt-6">
                 <div className="relative flex items-center justify-center">
-                    <img src={blog1} alt="chair" />
+                    <img src="./img/blog1.jpg" alt="chair" />
                     <div className="absolute top-0 flex flex-col w-80 md:w-80 lg:w-80 xl:w-96 h-full items-center justify-between py-10">
                         <div className="flex items-center justify-center flex-col h-full">
                             <h2 className="xl:px-10 md:px-2 px-7 text-2xl font-semibold leading-normal text-center text-white">The history of wood</h2>
@@ -23,8 +20,8 @@ const Blog2 = () => {
                         </div>
                     </div>
                 </div>
-                <div className="relative flex items-center justify-center">
-                    <img src={blog4} alt="chair" />
+                <div className="relative flex items-center justify-center  lg:block md:block hidden ">
+                    <img src="./img/blog4.jpg"alt="chair" />
                     <div className="absolute top-0 flex flex-col w-80 md:w-80 lg:w-80 xl:w-96 h-full items-center justify-between py-10">
                         <div className="flex items-center justify-center flex-col h-full">
                             <h2 className="xl:px-10 md:px-2 px-7 text-2xl font-semibold leading-7 lg:leading-7 text-center text-white">Minimimalism and modern day architecture</h2>
@@ -35,8 +32,8 @@ const Blog2 = () => {
                         </div>
                     </div>
                 </div>
-                <div className="relative flex items-center justify-center">
-                    <img src={blog5} alt="chair" />
+                <div className="relative flex items-center justify-center lg:block md:block hidden ">
+                    <img src="./img/blog5.jpg" alt="chair" />
                     <div className="absolute top-0 flex flex-col w-80 md:w-80 lg:w-80 xl:w-96 h-full items-center justify-between py-10">
                         <div className="flex items-center justify-center flex-col h-full">
                             <h2 className="xl:px-10 md:px-2 px-7 text-2xl font-semibold sm:w-auto leading-normal text-center text-white">Layout setting and mood</h2>
