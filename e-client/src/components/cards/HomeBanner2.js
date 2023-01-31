@@ -1,5 +1,4 @@
 import React from "react";
-import secondadd from "../assets/summer2.png"
 function index() {
   return (
     <>
@@ -22,7 +21,7 @@ function index() {
               </div>
               <div className="md:p-4 p-4">
                 <img
-                  src={secondadd} className="w-[80%] md:ml-36 lg:ml-36 h-[50%]" alt="banner"
+                  src="./img/summer2.png" className="w-[80%] md:ml-36 lg:ml-36 h-[50%]" alt="banner"
                 />
               </div>
             </div>

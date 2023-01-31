@@ -4,7 +4,6 @@ import { FiShoppingBag } from "react-icons/fi";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { HiSearch } from "react-icons/hi";
 import { IoMdClose } from "react-icons/io";
-import Icon from '../assets/icon-user.svg';
 
 import { Link } from "react-router-dom";
 
@@ -49,7 +48,7 @@ export default function Nav2() {
           <div className="lg:w-6/12 flex flex-col justify-center items-center space-y-3.5">
             <div role="img" className="cursor-pointer">
               <Link to={"./"} className="flex items-center space-x-3.5">
-            <img className="w-12 h-12 rounded-full" src={Icon} width="32" height="32" alt="User" />
+            <img className="w-12 h-12 rounded-full" src="./img/icon-user.svg" width="32" height="32" alt="User" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-black"> E-shop</span>  
               </Link>
             </div>

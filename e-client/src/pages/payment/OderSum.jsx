@@ -1,6 +1,4 @@
 import React from "react";
-import prod3 from "../../components/assets/prod3.jpg";
-import prod4 from "../../components/assets/prod4.jpg";
 
 const OderSum = () => {
     return (
@@ -15,8 +13,8 @@ const OderSum = () => {
                         <p className="text-lg md:text-xl font-semibold leading-6 xl:leading-5 text-gray-800">Customer’s Cart</p>
                         <div className="mt-4 md:mt-6 flex  flex-col md:flex-row justify-start items-start md:items-center md:space-x-6 xl:space-x-8 w-full ">
                             <div className="pb-4 md:pb-8 w-full md:w-40">
-                                <img className="w-full hidden md:block" src={prod3} alt="dress" />
-                                <img className="w-full md:hidden" src={prod3} alt="dress" />
+                                <img className="w-full hidden md:block" src="./img/prod3.jpg" alt="dress" />
+                                <img className="w-full md:hidden" src="./img/prod3.jpg" alt="dress" />
                             </div>
                             <div className="border-b border-gray-200 md:flex-row flex-col flex justify-between items-start w-full  pb-8 space-y-4 md:space-y-0">
                                 <div className="w-full flex flex-col justify-start items-start space-y-8">
@@ -44,8 +42,8 @@ const OderSum = () => {
                         </div>
                         <div className="mt-6 md:mt-0 flex justify-start flex-col md:flex-row  items-start md:items-center space-y-4  md:space-x-6 xl:space-x-8 w-full ">
                             <div className="w-full md:w-40">
-                                <img className="w-full hidden md:block" src={prod4} alt="dress" />
-                                <img className="w-full md:hidden" src={prod4} alt="dress" />
+                                <img className="w-full hidden md:block" src="./img/prod4.jpg" alt="dress" />
+                                <img className="w-full md:hidden" src="./img/prod4.jpg" alt="dress" />
                             </div>
                             <div className="  flex justify-between items-start w-full flex-col md:flex-row space-y-4 md:space-y-0  ">
                                 <div className="w-full flex flex-col justify-start items-start space-y-8">
