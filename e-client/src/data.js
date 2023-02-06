@@ -67,3 +67,31 @@ export const my_products = {
 };
 
 
+export const cart_items = {
+  product_1: {
+    name: "Sun-Burn",
+    price: 70,
+    ingredients: "oil, egg, cocoa",
+    description: "description",
+    image_1:"./img/ban2.jpg",
+    image_2:"./img/homeba.png",
+  },
+  product_2: {
+    name: "onalia",
+    price: 70,
+    ingredients: "oil, egg, cocoa",
+    description: "description",
+    image_1:"./img/ban2.jpg",
+    image_2:"./img/homeba.png",
+  },
+  product_3: {
+    name: "Hair  Oil",
+    price: 20,
+    ingredients: "oil, egg, cocoa",
+    description: "description",
+    image_1:"./img/oil.jpg",
+    image_2:"./img/blog2.jpg",
+  },
+}
+ 
+   
