@@ -1,6 +1,6 @@
 import React from "react";
 import ProductCard from "../../components/cards/ProductCard";
-import { my_products } from "../../products";
+import { my_products } from "../../data";
 import { useNavigate } from "react-router-dom";
 
 const ProductsPage = () => {

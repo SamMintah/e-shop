@@ -1,6 +1,6 @@
 import React from "react";
 import ProDetails from "../../components/cards/ProDetails";
-import { my_products } from "../../products";
+import { my_products } from "../../data";
 import { useLocation } from "react-router-dom";
 
 const ProductDetails = () => {
